@@ -46,11 +46,11 @@ header li {
   padding: 0 20px 0 20px;
 }
 
-header #branding {
+header #page_name {
   float: left;
 }
 
-header #branding h1 {
+header #page_name h1 {
   margin: 0;
 }
 
@@ -121,4 +121,22 @@ footer {
   color: #ffffff;
   background: #35424a;
   text-align: center;
+}
+
+/* Settings for mobile devices */
+@media(max-width: 768px){
+  header #page_name,
+  header nav,
+  header nav li {
+    float:none;
+    text-align: center;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
 }
