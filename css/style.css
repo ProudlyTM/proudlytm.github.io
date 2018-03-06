@@ -30,7 +30,7 @@ header {
   color: #ffffff;
   padding-top: 28px;
   min-height: 70px;
-  border-bottom: #2e53d8 3px solid;
+  border-bottom: #4DB6AC 3px solid;
 }
 
 header a {
@@ -60,14 +60,14 @@ header nav {
 }
 
 header a:hover {
-  color: #2e53d8;
+  color: #009688;
   font-weight: bold;
   transition: 200ms;
 }
 
 #showcase {
-  min-height: 359px;
-  background: #566771;
+  min-height: 356px;
+  background: #009688;
   text-align: center;
   color: #ffffff;
 }
@@ -86,7 +86,7 @@ header a:hover {
   padding: 50px;
   color: #ffffff;
   background: #35424a;
-  /* border-top: #2e53d8 3px solid; */
+  border-top: #4DB6AC 3px solid;
 }
 
 #boxes {
@@ -104,7 +104,7 @@ header a:hover {
 #boxes .box:hover {
   font-weight: bold;
   transition: 200ms;
-  color: #2e53d8;
+  color: #009688;
 }
 
 #boxes .box img {
@@ -113,6 +113,12 @@ header a:hover {
 
 #boxes h1 {
   font-size: 36px;
+}
+
+#about_body h3 {
+  margin-top: 20px;
+  padding: 85px;
+  text-align: center;
 }
 
 footer {
